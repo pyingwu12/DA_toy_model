@@ -8,7 +8,7 @@ axes('Units','pixels','position',[45,385,650,135])
   plot(t(et:tL),Xf_s(1,:),'color',[0.2 0.2 0.8],'LineWidth',0.8);   % noda fcst
   if ind~=2 && ind~=1 && ind~=3
   plot(t(st:sz:et),obs(1,st:sz:et),'o','Markersize',3,'MarkerFaceColor',[0.8 0.8 1]);  % obs
-  h=legend('truth','da','noda','obs');  set(h,'position',[690 500 68 40]);
+  h=legend('truth','da','noda','obs');  %set(h,'position',[690 500 68 40]);
   end
   plot(t(st-sz:et),Xf(1,st-sz:et),'r','LineWidth',0.8);                     % analysis
 % ---setting fig.
@@ -23,7 +23,7 @@ axes('Units','pixels','position',[45,220,650,135])
   plot(t(et:tL),Xf_s(2,:),'color',[0.2 0.2 0.8],'LineWidth',0.8);  
   if ind~=4 && ind~=1 && ind~=5
   plot(t(st:sz:et),obs(2,st:sz:et),'o','Markersize',3,'MarkerFaceColor',[0.8 0.8 1]);  %obs 
-  h=legend('truth','da','noda','obs');   set(h,'position',[690 500 68 40]);
+  h=legend('truth','da','noda','obs');   %set(h,'position',[690 500 68 40]);
   end
   plot(t(st-sz:et),Xf(2,st-sz:et),'r','LineWidth',0.8);                     % analysis
 % ---setting fig.
@@ -37,7 +37,7 @@ axes('Units','pixels','position',[45,50,650,135])
   plot(t(et:tL),Xf_s(3,:),'color',[0.2 0.2 0.8],'LineWidth',0.8);  
   if ind~=4 && ind~=2 && ind~=6
   plot(t(st:sz:et),obs(3,st:sz:et),'o','Markersize',3,'MarkerFaceColor',[0.8 0.8 1]);  %obs
-  h=legend('truth','da','noda','obs');   set(h,'position',[690 500 68 40]);
+  h=legend('truth','da','noda','obs');   %set(h,'position',[690 500 68 40]);
   end
   plot(t(st-sz:et),Xf(3,st-sz:et),'r','LineWidth',0.8);                     % analysis
 % ---setting fig.  
@@ -45,6 +45,6 @@ axes('Units','pixels','position',[45,50,650,135])
   xlabel('time','fontsize',12)
   ylabel('z','fontsize',12,'rot',0)
 %----------------------------
-  filnam=['trajectory_',fil];   print('-dpng',filnam,'-r600')
+  filnam=['trajectory_',fil];   print('-dpng',filnam)
 %}
 end
