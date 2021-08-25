@@ -6,6 +6,8 @@ Just practices, not guaranteed to be correct.
 - **Lorenz63_ETKF**: ETKF (ensemble transform Kalman filter) for Lorenz 63 (3 variable) model.
 
    Written in data assimilation class (Feb.-Jun., 2014) at National Central University, Taiwan.
+   
+   2021/08/26 update: corrected the method updating ensemble mean to the exactly ETKF formula (the original one used the formula of EnKf)
 
 - **KdV_4DVAR**: 4D-VAR for KdV equation.
 
