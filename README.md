@@ -7,7 +7,7 @@ Just practices, not guaranteed to be correct.
 
    Written in data assimilation class (Feb.-Jun., 2014) at National Central University, Taiwan.
 
-- **KdV_4DVAR**: 4D-VAR fro KdV equation.
+- **KdV_4DVAR**: 4D-VAR for KdV equation.
 
    Written in Data assimilation summer school 2020 at Japan (Aug. 2020; online).
 
