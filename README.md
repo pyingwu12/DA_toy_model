@@ -7,7 +7,7 @@ Just practices, not guaranteed to be correct.
 
    Written in data assimilation class (Feb.-Jun., 2014) at National Central University, Taiwan.
    
-   2021/08/26 update: corrected the method updating ensemble mean to the exactly ETKF formula (the original one used the formula of EnKf)
+   2021/08/26 update: corrected the method updating ensemble mean to the exactly ETKF formula (the original one used the formula of EnKF)
 
 - **KdV_4DVAR**: 4D-VAR for KdV equation.
 
