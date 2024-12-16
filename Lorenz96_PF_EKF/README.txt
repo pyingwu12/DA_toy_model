@@ -1,5 +1,5 @@
 lorenz96: Lorenz 96 model
-lorenz96en: Lorenz 96 model, calculate all memners at the same time
+lorenz96en: Lorenz 96 model, calculate all members at the same time
 
 main_EKF: Extend Kalman Filter for Lorenz 96 model
 main_KF: Kalman Filter for Lorenz 96 model
